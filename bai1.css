@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20%;
+}
+
+.btn  { 
+    
+    padding: 10px;
+    line-height: 30px;
+    color: rgb(52, 235, 122);
+    border-radius: 10%;
+    border: none;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.3);
+    
+}
+.btn-blue {
+    background-color: rgb(68, 68, 211);
+}
+.btn-red {
+    background-color: rgb(235, 84, 84);
+}
+.btn2 {
+    padding: 10px;
+    line-height: 30px;
+    color: salmon;
+    text-transform: uppercase;
+    border-width: 1px 5px;
+    border-color: salmon;
+    border-style: solid ;
+}
+.btn2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
